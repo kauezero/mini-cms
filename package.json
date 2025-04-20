@@ -4,7 +4,10 @@
   "description": "Mini CMS for CS50 final project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "sass": "sass --update --style=expanded sass/main.scss:public/css/style.css",
+    "sass:watch": "sass --watch --update --style=expanded sass/main.scss:public/css/style.css"
   },
   "repository": {
     "type": "git",

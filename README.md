@@ -34,6 +34,7 @@ The admin area is accessible at `/admin`, but only pre-authorized users can log 
 ##### 🛠 Dev Tools
 
 - **Nodemon** — Automatically restarts the server on file changes
+- **NPM** — Manage project dependencies
 
 ---
 
