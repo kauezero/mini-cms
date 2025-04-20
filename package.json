@@ -1,0 +1,30 @@
+{
+  "name": "mini-cms",
+  "version": "1.0.0",
+  "description": "Mini CMS for CS50 final project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauezero/mini-cms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauezero/mini-cms/issues"
+  },
+  "homepage": "https://github.com/kauezero/mini-cms#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "sass": "^1.86.3"
+  }
+}
