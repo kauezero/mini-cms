@@ -4,8 +4,8 @@
   "description": "Mini CMS for CS50 final project",
   "main": "app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "sass": "sass --update --style=expanded sass/main.scss:public/css/style.css",
     "sass:watch": "sass --watch --update --style=expanded sass/main.scss:public/css/style.css"
   },
